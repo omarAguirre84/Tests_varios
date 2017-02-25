@@ -17,6 +17,7 @@ public class Test {
 			System.out.println(mapa.getKey() +"="+ mapa.getValue());
 		}
 		
+		
 		map.forEach((k,v) -> System.out.println("Key: " + k + ": Value: " + v));
 
 		
