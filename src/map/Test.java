@@ -12,8 +12,13 @@ public class Test {
 		map.put("Armando", 31012551);
 		map.put("Evelina", 31012552);
 		System.out.println(map.size());
-		System.out.println(map.containsKey("Eve"));
 		
+		for (Map.Entry<String, Integer> mapa : map.entrySet()) {
+			System.out.println(mapa.getKey() +"="+ mapa.getValue());
+		}
+		
+		map.forEach((k,v) -> System.out.println("Key: " + k + ": Value: " + v));
+
 		
 	}
 
