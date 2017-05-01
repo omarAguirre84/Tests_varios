@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Test {
-
+	String aa ="a as";
 	public static void main(String[] args) {
 		Map<String, Integer> map = new HashMap<>();
 		
@@ -13,8 +13,7 @@ public class Test {
 		map.put("Evelina", 31012552);
 		System.out.println(map.size());
 		System.out.println(map.containsKey("Eve"));
-		
-		
+
 	}
 
 }
