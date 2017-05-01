@@ -3,9 +3,13 @@ package vector;
 public class Test {
 
 	public static void main(String[] args) {
-		int [] v = new int [5];
+		Integer [] v = new Integer [5];
 		
-		for (int i : v) {
+		for (Integer x : v) {
+			System.out.println(x);
+		}
+		
+		for(int i=0; i < v.length; i++){
 			System.out.println(i);
 		}
 	}
